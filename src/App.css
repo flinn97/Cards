@@ -200,6 +200,20 @@ body {
   border: 1px solid #999;
   flex-direction: column;
 }
+.popupCard {
+  position: relative;
+  display: flex;
+  width: 25%;
+  margin: 0 auto;
+  height: 350px;
+  justify-content: space-between;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  border: 1px solid #999;
+  flex-direction: column;
+}
 .scroller {
     
   height: 100%;

@@ -5,12 +5,8 @@ import Nav from './view/nav.js';
 // import Login from './view/login';
 // import Register from './view/register';
 import './index.css';
-import CharacterStrategy from './view/badges';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import CardsPrac from './view/cards';
-import Goals from './view/PopupPrac';
-import StudentProfile from './view/studentProfile';
-import TeachersStudents from './view/teachersStudents';
+
 // import DeletePopup from './view/deletePopup';
 // import KeepDel from './view/keepDelete';
 
@@ -32,7 +28,6 @@ export default class Dispatch extends Component {
     <div style={{
       width:"100%", 
       height:"96vh",
-      fontFamily: styles.fonts.fontNormal,
       }}>
         
 

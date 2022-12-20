@@ -7,6 +7,8 @@ import ComponentListInterface from './componentListNPM/componentListInterface';
 import auth from './services/auth';
 import CardsPrac from './view/cards';
 import PopupPrac from './view/PopupPrac';
+import ThemeFactory from './componentListNPM/themes/themeFactory';
+// import NavThemeFactory from './componentListNPM/navThemes/navThemeFactory';
 
 //fonts
 
@@ -19,7 +21,8 @@ export default class App extends Component {
         this.dispatch=this.dispatch.bind(this);
 
     this.state={
-      styles: styleService.getstyles(),
+      start: false,
+      styles: undefined,
       loginPage: true,
       registerPage:false,
       user: undefined,
@@ -27,6 +30,9 @@ export default class App extends Component {
       componentList: undefined,
       currentCharacter: undefined,
       opps: undefined,
+      themeFactory: new ThemeFactory(),
+      // navFactory: new NavThemeFactory(),
+      navType: "topBar",
       
       // switchcase: "home",
       
@@ -43,6 +49,8 @@ export default class App extends Component {
       backendUpdate:[],
       backend: false,
       myswitch: "home",
+      defaultTheme: "legato",
+      globalTheme: "",
       switchCase:[
         {path:"/", comp:CardsPrac, name: "Cards" },
         {path: "/popups", comp:PopupPrac, name: "Popups"},
@@ -93,6 +101,22 @@ handleChange = (event) => {
 }
 
   async componentDidMount(){
+    // if(this.state.navFactory){
+    //   let f = this.state.navFactory.getNavThemeFactory();
+    //   let styles = f["defaultSideNav"];
+      
+    //   this.setState({navStyles:styles, linkStyleDefault: styles.link});
+
+    // }
+  
+    if(this.state.themeFactory){
+      debugger
+      let f = await this.state.themeFactory.getThemeFactory();
+      let style = this.state.globalTheme!==""? this.state.globalTheme: this.state.defaultTheme!==""? this.state.defaultTheme: "default"
+      let styles = f[style];
+      
+      this.setState({styles:styles, start:true});
+    }
     let list;
     if(this.state.componentListInterface && this.state.componentList===undefined){
         list= await this.state.componentListInterface.createComponentList();
@@ -125,13 +149,12 @@ handleChange = (event) => {
       display:"flex", 
       
       zIndex:"100",
-      fontFamily: styles.fonts.appFont, 
-      background: styles.colors.White1,
+      
        
       flexDirection:"column"}}>
         
       
-      <Dispatch app={{run:this.run, state:this.state, handlechange:this.handleChange, dispatch:this.dispatch, factory:this.factory}} />
+      {this.state.start && <Dispatch app={{run:this.run, state:this.state, handlechange:this.handleChange, dispatch:this.dispatch, factory:this.factory}} />}
     </div>
   )}
 }

@@ -20,11 +20,12 @@ export default class Card extends Component {
 
 
   render() {
-    let app = this.props.app;
+    let app = {...this.props.app};
     let dispatch = app.dispatch;
     let state = app.state;
     let componentList = state.componentList;
     let styles =state.styles;
+    
     
     if(this.props.theme){
       if(Object.prototype.toString.call(this.props.theme) === "[object String]"){
@@ -34,6 +35,8 @@ export default class Card extends Component {
         styles= this.props.theme;
       }
     }
+    app.state.styles=styles
+    
     
     let cards={
       biggestcard: <BiggestCard app={app} />,
@@ -42,7 +45,7 @@ export default class Card extends Component {
       biggestCardColorTab: <BiggestCardColorTab app ={app} />,
       biggerCardColorTab: <BiggerCardColorTab app ={app} />,
       bigCardColorTab: <BigCardColorTab app ={app} />,
-      biggestCardPopup: <BiggestCardPopup app={app} handleClose={this.props.handleClose} />
+      popupLarge: <PopupLarge app={app} handleClose={this.props.handleClose} />
 
 
     
@@ -67,6 +70,7 @@ class MainContent extends Component{
     let state = app.state;
     let componentList = state.componentList;
     let styles =state.styles;
+    
 
     return(
     <div></div>
@@ -103,7 +107,7 @@ class BiggestCard extends Component{
     let styles =state.styles;
 
     return(
-    <div className='scroller' style={{...styles?.biggestcard}}>      
+    <div className='scroller' style={{...styles?.biggestCard}}>      
       <MainContent app={app} />
       </div>
       )
@@ -120,9 +124,10 @@ class BiggestCardColorTab extends Component{
     let state = app.state;
     let componentList = state.componentList;
     let styles =state.styles;
+    console.log(styles?.biggestCard);
 
     return(
-    <div  style={{...styles?.biggestcard}}>   
+    <div  style={{...styles?.biggestCard}}>   
     <div style={{width:"100%", height:"100px", background:"green", borderRadius:"23px 23px 0px 0px"}}><TabContent app={app} /></div>   
     <div className='scroller'>
       <MainContent app={app} />
@@ -144,7 +149,7 @@ class BiggerCard extends Component{
     let styles =state.styles;
 
     return(
-      <div className='scroller'  style={{...styles?.biggercard}}>      
+      <div className='scroller'  style={{...styles?.biggerCard}}>      
             <MainContent app={app} />
 
       </div>
@@ -165,7 +170,7 @@ class BiggerCardColorTab extends Component{
     let styles =state.styles;
 
     return(
-    <div  style={{...styles?.biggercard}}>   
+    <div  style={{...styles?.biggerCard}}>   
     <div style={{width:"100%", height:"100px", background:"green", borderRadius:"23px 23px 0px 0px"}}><TabContent app={app} /></div>   
     <div className='scroller'>
       <MainContent app={app} />
@@ -189,7 +194,7 @@ class BigCard extends Component{
     let styles =state.styles;
 
     return(
-      <div className='scroller'  style={{...styles?.bigcard}}>   
+      <div className='scroller'  style={{...styles?.bigCard}}>   
             <MainContent app={app} />
   
       </div>
@@ -209,7 +214,7 @@ class BigCardColorTab extends Component{
     let styles =state.styles;
 
     return(
-    <div  style={{...styles?.bigcard}}>   
+    <div  style={{...styles?.bigCard}}>   
     <div style={{width:"100%", height:"100px", background:"green", borderRadius:"23px 23px 0px 0px"}}> <TabContent app={app} /></div>   
     <div className='scroller'>
       <MainContent app={app} />
@@ -218,7 +223,7 @@ class BigCardColorTab extends Component{
       )
     }
   }
-  class BiggestCardPopup extends Component{
+  class PopupLarge extends Component{
     constructor(props) {
       super(props);
     }
@@ -231,7 +236,7 @@ class BigCardColorTab extends Component{
   
       return(
         <div className="popup-box" style={{ zIndex: "1010" }}>
-        <div ref={this.wrapperRef}  className="diapicboxa" style={{ zIndex: "1010", height:window.innerHeight<900?"70vh":"54vh" }}>
+        <div ref={this.wrapperRef}  className="popupCard" style={{ zIndex: "1010", ...styles.popupLarge }}>
         <div style={ ///EXIT BUTTON
                         styles.buttons.closeicon
                     } onClick={this.props.handleClose}>x</div>
