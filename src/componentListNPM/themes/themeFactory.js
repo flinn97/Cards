@@ -1,4 +1,5 @@
 import defaultStyles from "./defaultStyles";
+// defaultSylesPhone
 import LegatoStyles from "./legatoStyles";
 import SpawnStyles from "./spawnStyles";
 
@@ -10,6 +11,7 @@ class ThemeFactory {
        legato: LegatoStyles.getStylesByScreenSize(),
        spawn: SpawnStyles.getStylesByScreenSize(),
        default: defaultStyles.getStylesByScreenSize(),
+       //phone: defaultSylesPhone
 
 
     }
@@ -19,7 +21,6 @@ class ThemeFactory {
     getThemeFactory(){
         return this.factory;
     }
-
     getComponent(obj){
         //debugger
         if(Object.keys(this.factory).includes(obj.component)){

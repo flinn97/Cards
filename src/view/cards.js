@@ -21,7 +21,7 @@ export default class CardsPrac extends Component {
     return (
       <div><h1>Cards</h1>
 
-      <CardPractice app={app} />
+      <CardPractice app={app} theme="default" type="smallerCardColorTab"/>
 
       </div>
 

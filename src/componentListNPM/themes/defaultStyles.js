@@ -1,5 +1,4 @@
 
-
 class DefaultStyles {
     getstyles() {
 
@@ -561,7 +560,7 @@ class DefaultStyles {
     getStylesByScreenSize(){
         let objkey = this.getstyles();
         if(window.innerWidth<650){
-             objKey=this.resize1();
+             objkey=this.resize1();
         }
         // else if(window.innerWidth<600){
         //     objKey = this.resize2();
