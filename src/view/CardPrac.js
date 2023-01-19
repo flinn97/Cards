@@ -39,12 +39,34 @@ export default class Card extends Component {
     
     
     let cards={
-      biggestcard: <BiggestCard app={app} />,
-      biggercard: <BiggerCard app={app} />,
-      bigcard: <BigCard app={app} />,
-      biggestCardColorTab: <BiggestCardColorTab app ={app} />,
-      biggerCardColorTab: <BiggerCardColorTab app ={app} />,
+
+      smallestCard: <SmallestCard app={app} />,
+      smallestCardColorTab: <SmallestCardColorTab app={app} />,
+
+      smallerCard: <SmallerCard app={app} />,
+      smallerCardColorTab: <SmallerCardColorTab app={app} />,
+
+      smallCard: <SmallCard app={app} />,
+      smallCardColorTab: <SmallCardColorTab app={app} />,
+
+      bigCard: <BigCard app={app} />,
       bigCardColorTab: <BigCardColorTab app ={app} />,
+
+      biggerCard: <BiggerCard app={app} />,
+      biggerCardColorTab: <BiggerCardColorTab app ={app} />,
+
+      biggestCard: <BiggestCard app={app} />,
+      biggestCardColorTab: <BiggestCardColorTab app ={app} />,
+
+      tallCard: <TallCard app={app} />,
+      tallCardColorTab: <TallCardColorTab app={app} />,
+
+      tallerCard: <TallCard app={app} />,
+      tallerCardColorTab: <TallCardColorTab app={app} />,
+
+      tallestCard: <TallCard app={app} />,
+      tallestCardColorTab: <TallCardColorTab app={app} />,
+
       popupLarge: <PopupLarge app={app} handleClose={this.props.handleClose} />
 
 
@@ -60,6 +82,10 @@ export default class Card extends Component {
     )
   }
 }
+
+
+
+
 class MainContent extends Component{
   constructor(props) {
     super(props);
@@ -73,8 +99,8 @@ class MainContent extends Component{
     
 
     return(
-    <div></div>
-      )
+    <div>Hello World, muthafuqa</div>
+    )
   }
 }
 
@@ -91,9 +117,237 @@ class TabContent extends Component{
 
     return(
     <div></div>
-      )
+    )
   }
 }
+
+
+
+
+class SmallestCard extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div className='scroller'  style={{...styles?.smallestCard}}>   
+            <MainContent app={app} />
+  
+      </div>
+    )
+  }
+}
+
+class SmallestCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.smallestCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
+
+
+
+
+class SmallerCard extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div className='scroller'  style={{...styles?.smallerCard}}>   
+            <MainContent app={app} />
+  
+      </div>
+    )
+  }
+}
+
+class SmallerCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.smallerCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
+
+
+
+
+class SmallCard extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div className='scroller'  style={{...styles?.smallCard}}>   
+            <MainContent app={app} />
+  
+      </div>
+    )
+  }
+}
+
+class SmallCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.smallCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
+
+
+
+
+class BigCard extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div className='scroller'  style={{...styles?.bigCard}}>   
+            <MainContent app={app} />
+  
+      </div>
+    )
+  }
+}
+
+class BigCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.bigCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
+
+
+
+
+class BiggerCard extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div className='scroller'  style={{...styles?.biggerCard}}>      
+            <MainContent app={app} />
+
+      </div>
+    )
+  }
+}
+  
+class BiggerCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+    <div  style={{...styles?.biggerCard}}>   
+    <div style={{width:"100%", height:"100px", background:"green", borderRadius:"23px 23px 0px 0px"}}><TabContent app={app} /></div>   
+    <div className='scroller'>
+      <MainContent app={app} />
+      </div>
+      </div>
+    )
+  }
+}
+
+
+
 
 class BiggestCard extends Component{
   constructor(props) {
@@ -110,7 +364,7 @@ class BiggestCard extends Component{
     <div className='scroller' style={{...styles?.biggestCard}}>      
       <MainContent app={app} />
       </div>
-      )
+    )
   }
 }
 
@@ -133,11 +387,14 @@ class BiggestCardColorTab extends Component{
       <MainContent app={app} />
       </div>
       </div>
-      )
+    )
   }
 }
 
-class BiggerCard extends Component{
+
+
+
+class TallCard extends Component{
   constructor(props) {
     super(props);
   }
@@ -149,16 +406,15 @@ class BiggerCard extends Component{
     let styles =state.styles;
 
     return(
-      <div className='scroller'  style={{...styles?.biggerCard}}>      
+      <div className='scroller'  style={{...styles?.tallCard}}>   
             <MainContent app={app} />
 
       </div>
-      )
+    )
   }
 }
 
-
-class BiggerCardColorTab extends Component{
+class TallCardColorTab extends Component{
   constructor(props) {
     super(props);
   }
@@ -170,19 +426,20 @@ class BiggerCardColorTab extends Component{
     let styles =state.styles;
 
     return(
-    <div  style={{...styles?.biggerCard}}>   
-    <div style={{width:"100%", height:"100px", background:"green", borderRadius:"23px 23px 0px 0px"}}><TabContent app={app} /></div>   
-    <div className='scroller'>
-      <MainContent app={app} />
-      </div>
-      </div>
-      )
+      <div  style={{...styles?.tallCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
   }
 }
 
 
 
-class BigCard extends Component{
+
+class TallerCard extends Component{
   constructor(props) {
     super(props);
   }
@@ -194,15 +451,15 @@ class BigCard extends Component{
     let styles =state.styles;
 
     return(
-      <div className='scroller'  style={{...styles?.bigCard}}>   
+      <div className='scroller'  style={{...styles?.tallerCard}}>   
             <MainContent app={app} />
-  
+
       </div>
-      )
+    )
   }
 }
 
-class BigCardColorTab extends Component{
+class TallerCardColorTab extends Component{
   constructor(props) {
     super(props);
   }
@@ -214,48 +471,98 @@ class BigCardColorTab extends Component{
     let styles =state.styles;
 
     return(
-    <div  style={{...styles?.bigCard}}>   
-    <div style={{width:"100%", height:"100px", background:"green", borderRadius:"23px 23px 0px 0px"}}> <TabContent app={app} /></div>   
-    <div className='scroller'>
-      <MainContent app={app} />
-      </div>
-      </div>
-      )
-    }
+      <div  style={{...styles?.tallerCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
   }
-  class PopupLarge extends Component{
-    constructor(props) {
-      super(props);
-    }
-    render(){
-      let app = this.props.app;
-      let dispatch = app.dispatch;
-      let state = app.state;
-      let componentList = state.componentList;
-      let styles =state.styles;
+}
+
+
+
+
+class TallestCard extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div className='scroller'  style={{...styles?.tallestCard}}>   
+            <MainContent app={app} />
+
+      </div>
+    )
+  }
+}
+
+class TallestCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.tallestCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
+
+
+
+
+class PopupLarge extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div className="popup-box" style={{ zIndex: "1010" }}>
+      <div ref={this.wrapperRef}  className="popupCard" style={{ zIndex: "1010", ...styles.popupLarge }}>
+      <div style={ ///EXIT BUTTON
+                      styles.buttons.closeicon
+                  } onClick={this.props.handleClose}>x</div>
+          
+
+        
+      <div style={{display:"flex", flexDirection:"column", justifyContent:"center", display:"flex", alignItems:"center"}}>
+
+      <MainContent app ={app} />
+          
+
+      </div>
+      </div>
+
+
+
+      </div>
+    )
+  }
+}
   
-      return(
-        <div className="popup-box" style={{ zIndex: "1010" }}>
-        <div ref={this.wrapperRef}  className="popupCard" style={{ zIndex: "1010", ...styles.popupLarge }}>
-        <div style={ ///EXIT BUTTON
-                        styles.buttons.closeicon
-                    } onClick={this.props.handleClose}>x</div>
-            
- 
-         
-    <div style={{display:"flex", flexDirection:"column", justifyContent:"center", display:"flex", alignItems:"center"}}>
 
-<MainContent app ={app} />
-       
-
-    </div>
-    </div>
-
-
-
-    </div>
-        )
-      }
-    }
-  
 
