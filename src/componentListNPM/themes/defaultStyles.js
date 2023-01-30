@@ -1,5 +1,7 @@
+import { normalizeUnits } from "moment"
 
 class DefaultStyles {
+    //********FULL SCREEN DESKTOP********/
     getstyles() {
 
         let appBorders =
@@ -23,7 +25,7 @@ class DefaultStyles {
             appBold: "",
             appItalic: "",
             appFont2: "",
-            appFont3: "",
+            appFont3: "",     
 
             //weight
             fontWeight100: "100",
@@ -51,19 +53,19 @@ class DefaultStyles {
 
         let appColors =
         {
-            color1:"#588b8b",
-            color2:"#f28f3b",
-            color3:"#ffffff",
-            color4:"#c3c7c1",
-            color5:"#c8553d",
-            color6:"#add3d3",
-            color7:"#0d0a0b",
-            color8:"#313d5a",
-            color9:"",
-            color10:"",
-            color11:"",
-            color12:"",
-            color13:"",
+            color1:"#FF0000",//red
+            color2:"#FF7F50",//red orange
+            color3:"#FFA500",//orange
+            color4:"#FFD700",//orange yellow
+            color5:"#FFFF00",//yellow
+            color6:"#ADFF2F",//yellow green
+            color7:"#3CB371",//green
+            color8:"#008B8B",//green blue
+            color9:"#1E90FF",//blue
+            color10:"#0000CD",//blue purple
+            color11:"#4B0082",//purple
+            color12:"#8B008B",//purple red
+            color13:"#8B4513",//brown
             colorWhite:"#ffffff",
             colorBlack:"#0d0a0b",
 
@@ -73,112 +75,342 @@ class DefaultStyles {
 
         let styles = {
             //TODO: Create or check all styles
+
+            cardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "70%"
+            },
+
+            cardContent:
+            {   padding: ".5rem 1rem",
+                height: "100%",
+            },
            
             smallestCard:
             {   border: appBorders.borderThin,
-                width: "8.48958vw",
-                height: "15.1282vh",
+                width: "8.5vw",
+                height: "15vh",
+                
                 
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none",
             },
+            smallestCardBorderless:
+            {   width: "8.5vw",
+                height: "15vh",
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+
 
             smallerCard:
             {   border: appBorders.borderThin,
-                width: "12.73437vw",
-                height: "37.8205vh",
+                width: "19vw",
+                height: "26.5vh",
                 
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none",
             },
+            smallerCardBorderless:
+            {   width: "19vw",
+                height: "26.5vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+
 
             smallCard:
             {   border: appBorders.borderThin,
-                width: "16.97916vw",
-                height: "30.2564vh",
+                width: "29.5vw",
+                height: "38vh",
+                 
                 
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none",
             },
+            smallCardBorderless:
+            {   width: "29.5vw",
+                height: "38vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+
 
             bigCard:
-            {   width: "29vw",
-                height: "30.2564vh",
-                border: appBorders.borderThin,
+            {   border: appBorders.borderThin,
+                width: "40vw",
+                height: "49.5vh",
+                 
+
                 
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none"
             },
+            bigCardBorderless:
+            {   width: "40vw",
+                height: "49.5vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+
 
             biggerCard:
-            {   width: "52vw",
-                height: "42.05vh",  
-                border: appBorders.borderThin,
-                
+            {   border: appBorders.borderThin,
+                width: "50.5vw",
+                height: "61vh", 
+                  
+
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none"
             },
-
-            biggestCard:
-            {   width: '72vw',
-                height: "84.1vh",
-                border: appBorders.borderThin,
+            biggerCardBorderless:
+            {   width: "50.5vw",
+                height: "61vh",
+                 
                 
                 background: appColors.colorWhite,
-                borderRadius: "11px",
+                userSelect: "none",
+            },
+            
+
+            biggestCard:
+            {   border: appBorders.borderThin,
+                width: '61vw',
+                height: "72.5vh",
+                 
+                                
+                background: appColors.colorWhite,
+                borderRadius: "1.5rem",
                 // boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none"
             },
+            biggestCardBorderless:
+            {   width: "61vw",
+                height: "72.5vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+            
 
             tallCard:
             {   border: appBorders.borderThin,
-                width: "16.97916vw",
-                height: "42.05vh",
+                width: "16vw",
+                height: "50vh",
+                 
                 
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none"
             },
+            tallCardBorderless:
+            {   width: "16vw",
+                height: "50vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+            
 
             tallerCard:
             {   border: appBorders.borderThin,
-                width: "16.97916vw",
-                height: "42.05vh",
+                width: "16vw",
+                height: "62vh",
+                 
                 
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none"
             },
+            tallerCardBorderless:
+            {   width: "16vw",
+                height: "62vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+            
             
             tallestCard:
             {   border: appBorders.borderThin,
-                width: "16.97916vw",
-                height: "42.05vh",
+                width: "16vw",
+                height: "75vh",
+                 
                 
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none"
             },
-
-            colorTab:
-            {   width:"100%", 
-                height:"25%", 
-                background: appColors.color1, 
-                borderRadius:"23px 23px 0px 0px"
+            tallestCardBorderless:
+            {   width: "16vw",
+                height: "75vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
             },
+            
+
+
+            borderlessTab:
+            {   width:"100%", 
+                height:"3rem", 
+                background: appColors.colorWhite, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab1:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color1, 
+                borderRadius:"1.5rem 23px 0px 0px",
+                padding: "1rem",
+            },
+            colorTab2:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color2, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab3:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color3, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab4:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color4, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab5:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color5, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab6:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color6, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab7:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color7, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab8:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color8, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab9:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color9, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab10:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color10, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab11:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color11, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab12:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color12, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab13:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color13, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTabWhite:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.colorWhite, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTabBlack:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height:"3rem", 
+                background: appColors.colorBlack, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+
            
 
 
@@ -271,7 +503,9 @@ class DefaultStyles {
         return styles;
     }
 
+
     resize1() {
+
 
         let appBorders =
         {
@@ -294,7 +528,7 @@ class DefaultStyles {
             appBold: "",
             appItalic: "",
             appFont2: "",
-            appFont3: "",
+            appFont3: "",     
 
             //weight
             fontWeight100: "100",
@@ -322,19 +556,19 @@ class DefaultStyles {
 
         let appColors =
         {
-            color1:"#588b8b",
-            color2:"#f28f3b",
-            color3:"#ffffff",
-            color4:"#c3c7c1",
-            color5:"#c8553d",
-            color6:"#add3d3",
-            color7:"#0d0a0b",
-            color8:"#313d5a",
-            color9:"",
-            color10:"",
-            color11:"",
-            color12:"",
-            color13:"",
+            color1:"#FF0000",//red
+            color2:"#FF7F50",//red orange
+            color3:"#FFA500",//orange
+            color4:"#FFD700",//orange yellow
+            color5:"#FFFF00",//yellow
+            color6:"#ADFF2F",//yellow green
+            color7:"#3CB371",//green
+            color8:"#008B8B",//green blue
+            color9:"#1E90FF",//blue
+            color10:"#0000CD",//blue purple
+            color11:"#4B0082",//purple
+            color12:"#8B008B",//purple red
+            color13:"#8B4513",//brown
             colorWhite:"#ffffff",
             colorBlack:"#0d0a0b",
 
@@ -344,112 +578,337 @@ class DefaultStyles {
 
         let styles = {
             //TODO: Create or check all styles
+
+            cardContents:
+            {   padding: ".5rem 1rem",
+                height: 100
+
+            },
            
             smallestCard:
             {   border: appBorders.borderThin,
-                width: "8.48958vw",
-                height: "15.1282vh",
+                width: "8.5vw",
+                height: "15vh",
                 
-                background: appColors.colorWhite,
-                borderRadius: "23px",
+                
+                background: appColors.colorBlack,
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none",
             },
+            smallestCardBorderless:
+            {   width: "8.5vw",
+                height: "15vh",
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+
 
             smallerCard:
             {   border: appBorders.borderThin,
-                width: "12.73437vw",
-                height: "37.8205vh",
+                width: "19vw",
+                height: "26.5vh",
                 
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none",
             },
+            smallerCardBorderless:
+            {   width: "19vw",
+                height: "26.5vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+
 
             smallCard:
             {   border: appBorders.borderThin,
-                width: "16.97916vw",
-                height: "30.2564vh",
+                width: "29.5vw",
+                height: "38vh",
+                 
                 
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none",
             },
+            smallCardBorderless:
+            {   width: "29.5vw",
+                height: "38vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+
 
             bigCard:
-            {   width: "29vw",
-                height: "30.2564vh",
-                border: appBorders.borderThin,
+            {   border: appBorders.borderThin,
+                width: "40vw",
+                height: "49.5vh",
+                 
+
                 
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none"
             },
+            bigCardBorderless:
+            {   width: "40vw",
+                height: "49.5vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+
 
             biggerCard:
-            {   width: "52vw",
-                height: "42.05vh",  
-                border: appBorders.borderThin,
-                
+            {   border: appBorders.borderThin,
+                width: "50.5vw",
+                height: "61vh", 
+                  
+
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none"
             },
-
-            biggestCard:
-            {   width: '72vw',
-                height: "84.1vh",
-                border: appBorders.borderThin,
+            biggerCardBorderless:
+            {   width: "50.5vw",
+                height: "61vh",
+                 
                 
                 background: appColors.colorWhite,
-                borderRadius: "11px",
+                userSelect: "none",
+            },
+            
+
+            biggestCard:
+            {   border: appBorders.borderThin,
+                width: '61vw',
+                height: "72.5vh",
+                 
+                                
+                background: appColors.colorWhite,
+                borderRadius: "1.5rem",
                 // boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none"
             },
+            biggestCardBorderless:
+            {   width: "61vw",
+                height: "72.5vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+            
 
             tallCard:
             {   border: appBorders.borderThin,
-                width: "16.97916vw",
-                height: "42.05vh",
+                width: "16vw",
+                height: "50vh",
+                 
                 
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none"
             },
+            tallCardBorderless:
+            {   width: "16vw",
+                height: "50vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+            
 
             tallerCard:
             {   border: appBorders.borderThin,
-                width: "16.97916vw",
-                height: "42.05vh",
+                width: "16vw",
+                height: "62vh",
+                 
                 
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none"
             },
+            tallerCardBorderless:
+            {   width: "16vw",
+                height: "62vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+            
             
             tallestCard:
             {   border: appBorders.borderThin,
-                width: "16.97916vw",
-                height: "42.05vh",
+                width: "16vw",
+                height: "75vh",
+                 
                 
                 background: appColors.colorWhite,
-                borderRadius: "23px",
+                borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none"
             },
-
-            colorTab:
-            {   width:"100%", 
-                height:"25%", 
-                background: appColors.color1, 
-                borderRadius:"23px 23px 0px 0px"
+            tallestCardBorderless:
+            {   width: "16vw",
+                height: "75vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
             },
+            
+
+
+            borderlessTab:
+            {   width:"100%", 
+                height: "3rem", 
+                background: appColors.colorWhite, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab1:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color1, 
+                borderRadius:"1.5rem 23px 0px 0px",
+                padding: "1rem"
+            },
+            colorTab2:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color2, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab3:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color3, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab4:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color4, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab5:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color5, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab6:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color6, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab7:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color7, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab8:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color8, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab9:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color9, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab10:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color10, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab11:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color11, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab12:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color12, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab13:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color13, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTabWhite:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.colorWhite, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTabBlack:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.colorBlack, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+
            
 
 
@@ -542,6 +1001,506 @@ class DefaultStyles {
         return styles;
     }
 
+
+    resize2() {
+
+
+        let appBorders =
+        {
+            borderThin: "1px solid #1B1B1B",
+            borderThick: "2px solid #1B1B1B",
+            borderThickest: "4px solid #1B1B1B",
+            borderDouble: "double #32a999",
+        }
+
+        let appShadows =
+        {
+            shadow1: "1px 2px 3px #1B1B1B",
+            shadow2: "2px 3px 4px #999999",
+        }
+
+        let appFonts= {
+            //typeface
+            appTitle: "'Roboto', sans-serif",
+            appFont: "'Roboto', sans-serif",
+            appBold: "",
+            appItalic: "",
+            appFont2: "",
+            appFont3: "",     
+
+            //weight
+            fontWeight100: "100",
+            fontWeight300: "300",
+            fontWeightNormal: "400",
+            fontWeightBold: "700",
+            fontWeightHeavy: "900",
+
+            //letter spacing
+            spacingNormal: "normal",
+            spacingWide: ".11rem",
+            spacingTight: "-.12vw",
+
+            //size
+            fontBody: "1.3vh",
+            fontSmall: ".94vh",
+            fontSubheader1: "1.6vh",
+            fontSubheader2: "2vh",
+            fontHeader1: "3vh",
+            fontHeader2: "3.4vh",
+            fontHeader3: "3.9vh",
+            fontHeader4: "4.25vh",
+            fontHeader5: "4.44vh",
+        }
+
+        let appColors =
+        {
+            color1:"#FF0000",//red
+            color2:"#FF7F50",//red orange
+            color3:"#FFA500",//orange
+            color4:"#FFD700",//orange yellow
+            color5:"#FFFF00",//yellow
+            color6:"#ADFF2F",//yellow green
+            color7:"#3CB371",//green
+            color8:"#008B8B",//green blue
+            color9:"#1E90FF",//blue
+            color10:"#0000CD",//blue purple
+            color11:"#4B0082",//purple
+            color12:"#8B008B",//purple red
+            color13:"#8B4513",//brown
+            colorWhite:"#ffffff",
+            colorBlack:"#0d0a0b",
+
+
+        }
+
+
+        let styles = {
+            //TODO: Create or check all styles
+
+            cardContents:
+            {   padding: ".5rem 1rem",
+                overflow: "scroll",
+                height: "100%"
+
+            },
+           
+            smallestCard:
+            {   border: appBorders.borderThin,
+                width: "20vw",
+                height: "20vh",
+                
+                
+                background: appColors.colorWhite,
+                borderRadius: "1.5rem",
+                boxShadow: "2px 3px 6px" + appColors.colorBlack,
+                userSelect: "none",
+            },
+            smallestCardBorderless:
+            {   width: "8.5vw",
+                height: "15vh",
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+
+
+            smallerCard:
+            {   border: appBorders.borderThin,
+                width: "19vw",
+                height: "26.5vh",
+                
+                background: appColors.colorWhite,
+                borderRadius: "1.5rem",
+                boxShadow: "2px 3px 6px" + appColors.colorBlack,
+                userSelect: "none",
+            },
+            smallerCardBorderless:
+            {   width: "19vw",
+                height: "26.5vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+
+
+            smallCard:
+            {   border: appBorders.borderThin,
+                width: "29.5vw",
+                height: "38vh",
+                 
+                
+                background: appColors.colorWhite,
+                borderRadius: "1.5rem",
+                boxShadow: "2px 3px 6px" + appColors.colorBlack,
+                userSelect: "none",
+            },
+            smallCardBorderless:
+            {   width: "29.5vw",
+                height: "38vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+
+
+            bigCard:
+            {   border: appBorders.borderThin,
+                width: "40vw",
+                height: "49.5vh",
+                 
+
+                
+                background: appColors.colorWhite,
+                borderRadius: "1.5rem",
+                boxShadow: "2px 3px 6px" + appColors.colorBlack,
+                userSelect: "none"
+            },
+            bigCardBorderless:
+            {   width: "40vw",
+                height: "49.5vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+
+
+            biggerCard:
+            {   border: appBorders.borderThin,
+                width: "50.5vw",
+                height: "61vh", 
+                  
+
+                background: appColors.colorWhite,
+                borderRadius: "1.5rem",
+                boxShadow: "2px 3px 6px" + appColors.colorBlack,
+                userSelect: "none"
+            },
+            biggerCardBorderless:
+            {   width: "50.5vw",
+                height: "61vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+            
+
+            biggestCard:
+            {   border: appBorders.borderThin,
+                width: '75vw',
+                height: "72.5vh",
+                 
+                                
+                background: appColors.colorWhite,
+                borderRadius: "1.5rem",
+                // boxShadow: "2px 3px 6px" + appColors.colorBlack,
+                userSelect: "none"
+            },
+            biggestCardBorderless:
+            {   width: "61vw",
+                height: "72.5vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+            
+
+            tallCard:
+            {   border: appBorders.borderThin,
+                width: "16vw",
+                height: "50vh",
+                 
+                
+                background: appColors.colorWhite,
+                borderRadius: "1.5rem",
+                boxShadow: "2px 3px 6px" + appColors.colorBlack,
+                userSelect: "none"
+            },
+            tallCardBorderless:
+            {   width: "16vw",
+                height: "50vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+            
+
+            tallerCard:
+            {   border: appBorders.borderThin,
+                width: "16vw",
+                height: "62vh",
+                 
+                
+                background: appColors.colorWhite,
+                borderRadius: "1.5rem",
+                boxShadow: "2px 3px 6px" + appColors.colorBlack,
+                userSelect: "none"
+            },
+            tallerCardBorderless:
+            {   width: "16vw",
+                height: "62vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+            
+            
+            tallestCard:
+            {   border: appBorders.borderThin,
+                width: "16vw",
+                height: "75vh",
+                 
+                
+                background: appColors.colorWhite,
+                borderRadius: "1.5rem",
+                boxShadow: "2px 3px 6px" + appColors.colorBlack,
+                userSelect: "none"
+            },
+            tallestCardBorderless:
+            {   width: "16vw",
+                height: "75vh",
+                 
+                
+                background: appColors.colorWhite,
+                userSelect: "none",
+            },
+            
+
+
+            borderlessTab:
+            {   width:"100%", 
+                height: "3rem", 
+                background: appColors.colorWhite, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab1:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height:"3rem", 
+                background: appColors.color1, 
+                borderRadius:"1.5rem 23px 0px 0px",
+                padding: "1rem"
+            },
+            colorTab2:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color2, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab3:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color3, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab4:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color4, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab5:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color5, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab6:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color6, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab7:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color7, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab8:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color8, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab9:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color9, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab10:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color10, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab11:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color11, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab12:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color12, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTab13:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.color13, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTabWhite:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.colorWhite, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+            colorTabBlack:
+            {   border: appBorders.borderThin,
+                color: "#ffffff",
+                width:"100%", 
+                height: "3rem", 
+                background: appColors.colorBlack, 
+                borderRadius:"1.5rem 1.5rem 0px 0px",
+                padding: "1rem"
+            },
+
+           
+
+
+            popupLarge:
+            {
+                width: "20.1234vw",
+                height: "30.2564vh",
+                border: appBorders.borderThick,
+                background: appColors.colorWhite,
+                borderRadius: "23px",
+                boxShadow: "2px 3px 6px" + appColors.colorBlack,
+                userSelect: "none"
+            },
+
+            popupMedium:
+            {
+                width: "16",
+                height: "12.5",
+                border: appBorders.borderThick,
+                background: appColors.colorWhite,
+                borderRadius: "23px",
+                boxShadow: "2px 3px 6px" + appColors.colorBlack,
+                userSelect: "none"
+            },
+
+            popupSmall:
+            {
+                width: "10",
+                height: "12.5",
+                border: appBorders.borderThick,
+                background: appColors.colorWhite,
+                borderRadius: "23px",
+                boxShadow: "2px 3px 6px" + appColors.colorBlack,
+                userSelect: "none"
+            },
+
+
+            margins: {
+                margin1w: "1vw",
+                margin1h: "1vh",
+            },
+
+            buttons: {
+                buttonClose:
+                {
+                    fontFamily: appFonts.appFont,
+                    display: "flex",
+                    flexDirection: "row",
+                    width: "",
+                    color: "#ACACAC",
+                    cursor: "pointer",
+                    fontSize: "14vh",
+                    alignItems: "center",
+                    justifyContent: "flex-end",
+                    position:"absolute",
+                    right:"0",
+                    top:"0",
+                    marginRight:"10px",
+                    marginTop:"10px",
+                    height: "fit-content",
+                },
+
+                buttonClear: {
+                    cursor: "pointer",
+                    background: appColors.color2,
+                    color: appColors.colorWhite,
+                    padding: "4%",
+                    width: "5vw",
+                    height: "3vh",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                },
+
+                buttonAdd: {
+                    cursor: "pointer",
+                    background: appColors.color1,
+                    color: appColors.colorBlack,
+                    padding: "4%",
+                    width: "5vw",
+                    height: "3vh",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                },
+
+            }
+        }
+
+        return styles;
+    }
+
+
     getCustomCheckbox(big) {
         let changeLabelA = {
             change: "change-label2",
@@ -557,14 +1516,15 @@ class DefaultStyles {
         return big ? changeLabelA : changeLabelB;
 
     }
+    
     getStylesByScreenSize(){
         let objkey = this.getstyles();
-        if(window.innerWidth<650){
-             objkey=this.resize1();
+        if(window.innerWidth<600){
+             objkey=this.resize2();
         }
-        // else if(window.innerWidth<600){
-        //     objKey = this.resize2();
-        // }
+        else if(window.innerWidth<1200){
+            objkey = this.resize1();
+        }
 
         return objkey;
     }
