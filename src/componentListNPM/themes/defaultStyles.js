@@ -51,19 +51,29 @@ class DefaultStyles {
             fontHeader5: "4.44vh",
         }
 
-        let appColors =
+        let colorPalette =
         {
             color1:"#FF0000",//red
+            color2:"#FFA500",//orange
+            color3:"#FFFF00",//yellow
+            color4:"#3CB371",//green
+            color5:"#1E90FF",//blue
+            color6:"#4B0082",//purple
+        }
+
+        let appColors =
+        {
+            color1: colorPalette.color1,//red
             color2:"#FF7F50",//red orange
-            color3:"#FFA500",//orange
+            color3: colorPalette.color2,//orange
             color4:"#FFD700",//orange yellow
-            color5:"#FFFF00",//yellow
+            color5: colorPalette.color3,//yellow
             color6:"#ADFF2F",//yellow green
-            color7:"#3CB371",//green
+            color7: colorPalette.color4,//green
             color8:"#008B8B",//green blue
-            color9:"#1E90FF",//blue
+            color9: colorPalette.color5,//blue
             color10:"#0000CD",//blue purple
-            color11:"#4B0082",//purple
+            color11: colorPalette.color6,//purple
             color12:"#8B008B",//purple red
             color13:"#8B4513",//brown
             colorWhite:"#ffffff",
@@ -76,10 +86,58 @@ class DefaultStyles {
         let styles = {
             //TODO: Create or check all styles
 
-            cardContentWithTab:
+            smallestCardContentWithTab:
             {   padding: ".5rem 1rem",
                 top: "50%",
-                height: "70%"
+                height: "55%"
+            },
+
+            smallerCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "75%"
+            },
+
+            smallCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "83%"
+            },
+
+            bigCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "87%"
+            },
+
+            biggerCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "89%"
+            },
+
+            biggestCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "91%"
+            },
+
+            tallCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "87%"
+            },
+
+            tallerCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "89%"
+            },
+
+            tallestCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "91%"
             },
 
             cardContent:
@@ -214,7 +272,7 @@ class DefaultStyles {
 
             tallCard:
             {   border: appBorders.borderThin,
-                width: "16vw",
+                width: "19vw",
                 height: "50vh",
                  
                 
@@ -224,7 +282,7 @@ class DefaultStyles {
                 userSelect: "none"
             },
             tallCardBorderless:
-            {   width: "16vw",
+            {   width: "19vw",
                 height: "50vh",
                  
                 
@@ -235,7 +293,7 @@ class DefaultStyles {
 
             tallerCard:
             {   border: appBorders.borderThin,
-                width: "16vw",
+                width: "19vw",
                 height: "62vh",
                  
                 
@@ -245,7 +303,7 @@ class DefaultStyles {
                 userSelect: "none"
             },
             tallerCardBorderless:
-            {   width: "16vw",
+            {   width: "19vw",
                 height: "62vh",
                  
                 
@@ -256,7 +314,7 @@ class DefaultStyles {
             
             tallestCard:
             {   border: appBorders.borderThin,
-                width: "16vw",
+                width: "19vw",
                 height: "75vh",
                  
                 
@@ -266,7 +324,7 @@ class DefaultStyles {
                 userSelect: "none"
             },
             tallestCardBorderless:
-            {   width: "16vw",
+            {   width: "19vw",
                 height: "75vh",
                  
                 
@@ -282,6 +340,14 @@ class DefaultStyles {
                 background: appColors.colorWhite, 
                 borderRadius:"1.5rem 1.5rem 0px 0px",
                 padding: "1rem"
+            },
+            colorTab:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: colorPalette.color1, 
+                borderRadius:"1.5rem 23px 0px 0px",
+                padding: "1rem",
             },
             colorTab1:
             {   border: appBorders.borderThin,
@@ -554,19 +620,29 @@ class DefaultStyles {
             fontHeader5: "4.44vh",
         }
 
-        let appColors =
+        let colorPalette =
         {
             color1:"#FF0000",//red
+            color2:"#FFA500",//orange
+            color3:"#FFFF00",//yellow
+            color4:"#3CB371",//green
+            color5:"#1E90FF",//blue
+            color6:"#4B0082",//purple
+        }
+
+        let appColors =
+        {
+            color1: colorPalette.color1,//red
             color2:"#FF7F50",//red orange
-            color3:"#FFA500",//orange
+            color3: colorPalette.color2,//orange
             color4:"#FFD700",//orange yellow
-            color5:"#FFFF00",//yellow
+            color5: colorPalette.color3,//yellow
             color6:"#ADFF2F",//yellow green
-            color7:"#3CB371",//green
+            color7: colorPalette.color4,//green
             color8:"#008B8B",//green blue
-            color9:"#1E90FF",//blue
+            color9: colorPalette.color5,//blue
             color10:"#0000CD",//blue purple
-            color11:"#4B0082",//purple
+            color11: colorPalette.color6,//purple
             color12:"#8B008B",//purple red
             color13:"#8B4513",//brown
             colorWhite:"#ffffff",
@@ -579,19 +655,72 @@ class DefaultStyles {
         let styles = {
             //TODO: Create or check all styles
 
-            cardContents:
+            smallestCardContentWithTab:
             {   padding: ".5rem 1rem",
-                height: 100
+                top: "50%",
+                height: "55%"
+            },
 
+            smallerCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "75%"
+            },
+
+            smallCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "83%"
+            },
+
+            bigCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "87%"
+            },
+
+            biggerCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "89%"
+            },
+
+            biggestCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "91%"
+            },
+
+            tallCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "87%"
+            },
+
+            tallerCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "89%"
+            },
+
+            tallestCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "91%"
+            },
+
+            cardContent:
+            {   padding: ".5rem 1rem",
+                height: "100%",
             },
            
             smallestCard:
             {   border: appBorders.borderThin,
-                width: "8.5vw",
+                width: "15vw",
                 height: "15vh",
                 
                 
-                background: appColors.colorBlack,
+                background: appColors.colorWhite,
                 borderRadius: "1.5rem",
                 boxShadow: "2px 3px 6px" + appColors.colorBlack,
                 userSelect: "none",
@@ -607,7 +736,7 @@ class DefaultStyles {
 
             smallerCard:
             {   border: appBorders.borderThin,
-                width: "19vw",
+                width: "25vw",
                 height: "26.5vh",
                 
                 background: appColors.colorWhite,
@@ -627,7 +756,7 @@ class DefaultStyles {
 
             smallCard:
             {   border: appBorders.borderThin,
-                width: "29.5vw",
+                width: "35vw",
                 height: "38vh",
                  
                 
@@ -648,7 +777,7 @@ class DefaultStyles {
 
             bigCard:
             {   border: appBorders.borderThin,
-                width: "40vw",
+                width: "45vw",
                 height: "49.5vh",
                  
 
@@ -670,7 +799,7 @@ class DefaultStyles {
 
             biggerCard:
             {   border: appBorders.borderThin,
-                width: "50.5vw",
+                width: "55vw",
                 height: "61vh", 
                   
 
@@ -691,7 +820,7 @@ class DefaultStyles {
 
             biggestCard:
             {   border: appBorders.borderThin,
-                width: '61vw',
+                width: '65vw',
                 height: "72.5vh",
                  
                                 
@@ -712,7 +841,7 @@ class DefaultStyles {
 
             tallCard:
             {   border: appBorders.borderThin,
-                width: "16vw",
+                width: "19vw",
                 height: "50vh",
                  
                 
@@ -722,7 +851,7 @@ class DefaultStyles {
                 userSelect: "none"
             },
             tallCardBorderless:
-            {   width: "16vw",
+            {   width: "19vw",
                 height: "50vh",
                  
                 
@@ -733,7 +862,7 @@ class DefaultStyles {
 
             tallerCard:
             {   border: appBorders.borderThin,
-                width: "16vw",
+                width: "19vw",
                 height: "62vh",
                  
                 
@@ -743,7 +872,7 @@ class DefaultStyles {
                 userSelect: "none"
             },
             tallerCardBorderless:
-            {   width: "16vw",
+            {   width: "19vw",
                 height: "62vh",
                  
                 
@@ -754,7 +883,7 @@ class DefaultStyles {
             
             tallestCard:
             {   border: appBorders.borderThin,
-                width: "16vw",
+                width: "19vw",
                 height: "75vh",
                  
                 
@@ -764,7 +893,7 @@ class DefaultStyles {
                 userSelect: "none"
             },
             tallestCardBorderless:
-            {   width: "16vw",
+            {   width: "19vw",
                 height: "75vh",
                  
                 
@@ -776,10 +905,18 @@ class DefaultStyles {
 
             borderlessTab:
             {   width:"100%", 
-                height: "3rem", 
+                height:"3rem", 
                 background: appColors.colorWhite, 
                 borderRadius:"1.5rem 1.5rem 0px 0px",
                 padding: "1rem"
+            },
+            colorTab:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: colorPalette.color1, 
+                borderRadius:"1.5rem 23px 0px 0px",
+                padding: "1rem",
             },
             colorTab1:
             {   border: appBorders.borderThin,
@@ -787,7 +924,7 @@ class DefaultStyles {
                 height: "3rem", 
                 background: appColors.color1, 
                 borderRadius:"1.5rem 23px 0px 0px",
-                padding: "1rem"
+                padding: "1rem",
             },
             colorTab2:
             {   border: appBorders.borderThin,
@@ -903,7 +1040,7 @@ class DefaultStyles {
             {   border: appBorders.borderThin,
                 color: "#ffffff",
                 width:"100%", 
-                height: "3rem", 
+                height:"3rem", 
                 background: appColors.colorBlack, 
                 borderRadius:"1.5rem 1.5rem 0px 0px",
                 padding: "1rem"
@@ -1052,19 +1189,29 @@ class DefaultStyles {
             fontHeader5: "4.44vh",
         }
 
-        let appColors =
+        let colorPalette =
         {
             color1:"#FF0000",//red
+            color2:"#FFA500",//orange
+            color3:"#FFFF00",//yellow
+            color4:"#3CB371",//green
+            color5:"#1E90FF",//blue
+            color6:"#4B0082",//purple
+        }
+
+        let appColors =
+        {
+            color1: colorPalette.color1,//red
             color2:"#FF7F50",//red orange
-            color3:"#FFA500",//orange
+            color3: colorPalette.color2,//orange
             color4:"#FFD700",//orange yellow
-            color5:"#FFFF00",//yellow
+            color5: colorPalette.color3,//yellow
             color6:"#ADFF2F",//yellow green
-            color7:"#3CB371",//green
+            color7: colorPalette.color4,//green
             color8:"#008B8B",//green blue
-            color9:"#1E90FF",//blue
+            color9: colorPalette.color5,//blue
             color10:"#0000CD",//blue purple
-            color11:"#4B0082",//purple
+            color11: colorPalette.color6,//purple
             color12:"#8B008B",//purple red
             color13:"#8B4513",//brown
             colorWhite:"#ffffff",
@@ -1077,17 +1224,69 @@ class DefaultStyles {
         let styles = {
             //TODO: Create or check all styles
 
-            cardContents:
+            smallestCardContentWithTab:
             {   padding: ".5rem 1rem",
-                overflow: "scroll",
-                height: "100%"
+                top: "50%",
+                height: "55%"
+            },
 
+            smallerCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "75%"
+            },
+
+            smallCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "83%"
+            },
+
+            bigCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "87%"
+            },
+
+            biggerCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "89%"
+            },
+
+            biggestCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "91%"
+            },
+
+            tallCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "87%"
+            },
+
+            tallerCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "89%"
+            },
+
+            tallestCardContentWithTab:
+            {   padding: ".5rem 1rem",
+                top: "50%",
+                height: "91%"
+            },
+
+            cardContent:
+            {   padding: ".5rem 1rem",
+                height: "100%",
             },
            
             smallestCard:
             {   border: appBorders.borderThin,
                 width: "20vw",
-                height: "20vh",
+                height: "15vh",
                 
                 
                 background: appColors.colorWhite,
@@ -1096,7 +1295,7 @@ class DefaultStyles {
                 userSelect: "none",
             },
             smallestCardBorderless:
-            {   width: "8.5vw",
+            {   width: "20vw",
                 height: "15vh",
                 
                 background: appColors.colorWhite,
@@ -1106,7 +1305,7 @@ class DefaultStyles {
 
             smallerCard:
             {   border: appBorders.borderThin,
-                width: "19vw",
+                width: "32vw",
                 height: "26.5vh",
                 
                 background: appColors.colorWhite,
@@ -1115,7 +1314,7 @@ class DefaultStyles {
                 userSelect: "none",
             },
             smallerCardBorderless:
-            {   width: "19vw",
+            {   width: "32vw",
                 height: "26.5vh",
                  
                 
@@ -1126,7 +1325,7 @@ class DefaultStyles {
 
             smallCard:
             {   border: appBorders.borderThin,
-                width: "29.5vw",
+                width: "44vw",
                 height: "38vh",
                  
                 
@@ -1136,7 +1335,7 @@ class DefaultStyles {
                 userSelect: "none",
             },
             smallCardBorderless:
-            {   width: "29.5vw",
+            {   width: "44vw",
                 height: "38vh",
                  
                 
@@ -1147,7 +1346,7 @@ class DefaultStyles {
 
             bigCard:
             {   border: appBorders.borderThin,
-                width: "40vw",
+                width: "56vw",
                 height: "49.5vh",
                  
 
@@ -1158,7 +1357,7 @@ class DefaultStyles {
                 userSelect: "none"
             },
             bigCardBorderless:
-            {   width: "40vw",
+            {   width: "56vw",
                 height: "49.5vh",
                  
                 
@@ -1169,7 +1368,7 @@ class DefaultStyles {
 
             biggerCard:
             {   border: appBorders.borderThin,
-                width: "50.5vw",
+                width: "68vw",
                 height: "61vh", 
                   
 
@@ -1179,7 +1378,7 @@ class DefaultStyles {
                 userSelect: "none"
             },
             biggerCardBorderless:
-            {   width: "50.5vw",
+            {   width: "68vw",
                 height: "61vh",
                  
                 
@@ -1190,7 +1389,7 @@ class DefaultStyles {
 
             biggestCard:
             {   border: appBorders.borderThin,
-                width: '75vw',
+                width: '80vw',
                 height: "72.5vh",
                  
                                 
@@ -1200,7 +1399,7 @@ class DefaultStyles {
                 userSelect: "none"
             },
             biggestCardBorderless:
-            {   width: "61vw",
+            {   width: "80vw",
                 height: "72.5vh",
                  
                 
@@ -1211,7 +1410,7 @@ class DefaultStyles {
 
             tallCard:
             {   border: appBorders.borderThin,
-                width: "16vw",
+                width: "32vw",
                 height: "50vh",
                  
                 
@@ -1221,7 +1420,7 @@ class DefaultStyles {
                 userSelect: "none"
             },
             tallCardBorderless:
-            {   width: "16vw",
+            {   width: "32vw",
                 height: "50vh",
                  
                 
@@ -1232,7 +1431,7 @@ class DefaultStyles {
 
             tallerCard:
             {   border: appBorders.borderThin,
-                width: "16vw",
+                width: "32vw",
                 height: "62vh",
                  
                 
@@ -1242,7 +1441,7 @@ class DefaultStyles {
                 userSelect: "none"
             },
             tallerCardBorderless:
-            {   width: "16vw",
+            {   width: "32vw",
                 height: "62vh",
                  
                 
@@ -1253,7 +1452,7 @@ class DefaultStyles {
             
             tallestCard:
             {   border: appBorders.borderThin,
-                width: "16vw",
+                width: "32vw",
                 height: "75vh",
                  
                 
@@ -1263,7 +1462,7 @@ class DefaultStyles {
                 userSelect: "none"
             },
             tallestCardBorderless:
-            {   width: "16vw",
+            {   width: "32vw",
                 height: "75vh",
                  
                 
@@ -1275,18 +1474,26 @@ class DefaultStyles {
 
             borderlessTab:
             {   width:"100%", 
-                height: "3rem", 
+                height:"3rem", 
                 background: appColors.colorWhite, 
                 borderRadius:"1.5rem 1.5rem 0px 0px",
                 padding: "1rem"
             },
+            colorTab:
+            {   border: appBorders.borderThin,
+                width:"100%", 
+                height: "3rem", 
+                background: colorPalette.color1, 
+                borderRadius:"1.5rem 23px 0px 0px",
+                padding: "1rem",
+            },
             colorTab1:
             {   border: appBorders.borderThin,
                 width:"100%", 
-                height:"3rem", 
+                height: "3rem", 
                 background: appColors.color1, 
                 borderRadius:"1.5rem 23px 0px 0px",
-                padding: "1rem"
+                padding: "1rem",
             },
             colorTab2:
             {   border: appBorders.borderThin,
@@ -1402,7 +1609,7 @@ class DefaultStyles {
             {   border: appBorders.borderThin,
                 color: "#ffffff",
                 width:"100%", 
-                height: "3rem", 
+                height:"3rem", 
                 background: appColors.colorBlack, 
                 borderRadius:"1.5rem 1.5rem 0px 0px",
                 padding: "1rem"

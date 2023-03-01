@@ -19,9 +19,12 @@ export default class CardsPrac extends Component {
 
 
     return (
-      <div><h1>Cards</h1>
+      <div style={{display:"flex", flexDirection:"column"}}><h1>Cards</h1>
 
-      <CardPractice app={app} theme="default" type= "biggestCardColorTabBlack"/>
+      <div style={{display:"flex", flexDirection:"row"}}>
+        <CardPractice app={app} theme="default" type= "smallestCardColorTab"/>
+      </div>
+
 
       </div>
 

@@ -43,6 +43,7 @@ export default class Card extends Component {
     let cards={
 
       smallestCard: <SmallestCard app={app} />,
+      smallestCardColorTab: <SmallestCardColorTab app={app} />,
       smallestCardColorTab1: <SmallestCardColorTab1 app={app} />,
       smallestCardColorTab2: <SmallestCardColorTab2 app={app} />,
       smallestCardColorTab3: <SmallestCardColorTab3 app={app} />,
@@ -61,7 +62,9 @@ export default class Card extends Component {
       smallestCardBorderless: <SmallestCardBorderless app={app} />,
       smallestCardBorderlessTab: <SmallestCardBorderlessTab app={app} />,
 
+
       smallerCard: <SmallerCard app={app} />,
+      smallerCardColorTab: <SmallerCardColorTab app={app} />,
       smallerCardColorTab1: <SmallerCardColorTab1 app={app} />,
       smallerCardColorTab2: <SmallerCardColorTab2 app={app} />,
       smallerCardColorTab3: <SmallerCardColorTab3 app={app} />,
@@ -81,6 +84,7 @@ export default class Card extends Component {
       smallerCardBorderlessTab: <SmallerCardBorderlessTab app={app} />,
 
       smallCard: <SmallCard app={app} />,
+      smallCardColorTab: <SmallCardColorTab app={app} />,
       smallCardColorTab1: <SmallCardColorTab1 app={app} />,
       smallCardColorTab2: <SmallCardColorTab2 app={app} />,
       smallCardColorTab3: <SmallCardColorTab3 app={app} />,
@@ -100,6 +104,7 @@ export default class Card extends Component {
       smallCardBorderlessTab: <SmallCardBorderlessTab app={app} />,
 
       bigCard: <BigCard app={app} />,
+      bigCardColorTab: <BigCardColorTab app={app} />,
       bigCardColorTab1: <BigCardColorTab1 app={app} />,
       bigCardColorTab2: <BigCardColorTab2 app={app} />,
       bigCardColorTab3: <BigCardColorTab3 app={app} />,
@@ -119,6 +124,7 @@ export default class Card extends Component {
       bigCardBorderlessTab: <BigCardBorderlessTab app={app} />,
 
       biggerCard: <BiggerCard app={app} />,
+      biggerCardColorTab: <BiggerCardColorTab app={app} />,
       biggerCardColorTab1: <BiggerCardColorTab1 app={app} />,
       biggerCardColorTab2: <BiggerCardColorTab2 app={app} />,
       biggerCardColorTab3: <BiggerCardColorTab3 app={app} />,
@@ -138,6 +144,7 @@ export default class Card extends Component {
       biggerCardBorderlessTab: <BiggerCardBorderlessTab app={app} />,
 
       biggestCard: <BiggestCard app={app} />,
+      biggestCardColorTab: <BiggestCardColorTab app={app} />,
       biggestCardColorTab1: <BiggestCardColorTab1 app={app} />,
       biggestCardColorTab2: <BiggestCardColorTab2 app={app} />,
       biggestCardColorTab3: <BiggestCardColorTab3 app={app} />,
@@ -157,6 +164,7 @@ export default class Card extends Component {
       biggestCardBorderlessTab: <BiggestCardBorderlessTab app={app} />,
 
       tallCard: <TallCard app={app} />,
+      tallCardColorTab: <TallCardColorTab app={app} />,
       tallCardColorTab1: <TallCardColorTab1 app={app} />,
       tallCardColorTab2: <TallCardColorTab2 app={app} />,
       tallCardColorTab3: <TallCardColorTab3 app={app} />,
@@ -176,6 +184,7 @@ export default class Card extends Component {
       tallCardBorderlessTab: <TallCardBorderlessTab app={app} />,
 
       tallerCard: <TallerCard app={app} />,
+      tallerCardColorTab: <TallerCardColorTab app={app} />,
       tallerCardColorTab1: <TallerCardColorTab1 app={app} />,
       tallerCardColorTab2: <TallerCardColorTab2 app={app} />,
       tallerCardColorTab3: <TallerCardColorTab3 app={app} />,
@@ -195,6 +204,7 @@ export default class Card extends Component {
       tallerCardBorderlessTab: <TallerCardBorderlessTab app={app} />,
 
       tallestCard: <TallestCard app={app} />,
+      tallestCardColorTab: <TallestCardColorTab app={app} />,
       tallestCardColorTab1: <TallestCardColorTab1 app={app} />,
       tallestCardColorTab2: <TallestCardColorTab2 app={app} />,
       tallestCardColorTab3: <TallestCardColorTab3 app={app} />,
@@ -260,6 +270,20 @@ class MainContent extends Component{
       McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
       McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
       McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
+      McHavish is dead and his brother don't know it, his brother is dead and McHavish don't know it. They're both lying dead in the very same bed and neither one knows that the other is dead.
 
     </div>
     )
@@ -305,6 +329,27 @@ class SmallestCard extends Component{
     )
   }
 }
+class SmallestCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.smallestCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
 class SmallestCardColorTab1 extends Component{
   constructor(props) {
     super(props);
@@ -319,7 +364,7 @@ class SmallestCardColorTab1 extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTab1}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -340,7 +385,7 @@ class SmallestCardColorTab2 extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTab2}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -361,7 +406,7 @@ class SmallestCardColorTab3 extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTab3}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -382,7 +427,7 @@ class SmallestCardColorTab4 extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTab4}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -403,7 +448,7 @@ class SmallestCardColorTab5 extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTab5}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -424,7 +469,7 @@ class SmallestCardColorTab6 extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTab6}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -445,7 +490,7 @@ class SmallestCardColorTab7 extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTab7}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -466,7 +511,7 @@ class SmallestCardColorTab8 extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTab8}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -487,7 +532,7 @@ class SmallestCardColorTab9 extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTab9}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -508,7 +553,7 @@ class SmallestCardColorTab10 extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTab10}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -529,7 +574,7 @@ class SmallestCardColorTab11 extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTab11}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -550,7 +595,7 @@ class SmallestCardColorTab12 extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTab12}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -571,7 +616,7 @@ class SmallestCardColorTab13 extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTab13}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -592,7 +637,7 @@ class SmallestCardColorTabWhite extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTabWhite}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -613,7 +658,7 @@ class SmallestCardColorTabBlack extends Component{
     return(
       <div  style={{...styles?.smallestCard}}>   
       <div style={{...styles?.colorTabBlack}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -653,13 +698,14 @@ class SmallestCardBorderlessTab extends Component{
     return(
       <div  style={{...styles?.smallestCardBorderless}}>   
       <div style={{...styles?.borderlessTab}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
     )
   }
 }
+
 
 
 
@@ -685,6 +731,27 @@ class SmallerCard extends Component{
     )
   }
 }
+class SmallerCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.smallerCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
 class SmallerCardColorTab1 extends Component{
   constructor(props) {
     super(props);
@@ -699,7 +766,7 @@ class SmallerCardColorTab1 extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTab1}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -720,7 +787,7 @@ class SmallerCardColorTab2 extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTab2}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -741,7 +808,7 @@ class SmallerCardColorTab3 extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTab3}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -762,7 +829,7 @@ class SmallerCardColorTab4 extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTab4}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -783,7 +850,7 @@ class SmallerCardColorTab5 extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTab5}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -804,7 +871,7 @@ class SmallerCardColorTab6 extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTab6}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -825,7 +892,7 @@ class SmallerCardColorTab7 extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTab7}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -846,7 +913,7 @@ class SmallerCardColorTab8 extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTab8}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -867,7 +934,7 @@ class SmallerCardColorTab9 extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTab9}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -888,7 +955,7 @@ class SmallerCardColorTab10 extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTab10}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -909,7 +976,7 @@ class SmallerCardColorTab11 extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTab11}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -930,7 +997,7 @@ class SmallerCardColorTab12 extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTab12}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -951,7 +1018,7 @@ class SmallerCardColorTab13 extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTab13}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -972,7 +1039,7 @@ class SmallerCardColorTabWhite extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTabWhite}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -993,7 +1060,7 @@ class SmallerCardColorTabBlack extends Component{
     return(
       <div  style={{...styles?.smallerCard}}>   
       <div style={{...styles?.colorTabBlack}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1033,7 +1100,7 @@ class SmallerCardBorderlessTab extends Component{
     return(
       <div  style={{...styles?.smallerCardBorderless}}>   
       <div style={{...styles?.borderlessTab}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1065,6 +1132,27 @@ class SmallCard extends Component{
     )
   }
 }
+class SmallCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.smallCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
 class SmallCardColorTab1 extends Component{
   constructor(props) {
     super(props);
@@ -1079,7 +1167,7 @@ class SmallCardColorTab1 extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTab1}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1100,7 +1188,7 @@ class SmallCardColorTab2 extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTab2}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1121,7 +1209,7 @@ class SmallCardColorTab3 extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTab3}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1142,7 +1230,7 @@ class SmallCardColorTab4 extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTab4}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1163,7 +1251,7 @@ class SmallCardColorTab5 extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTab5}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1184,7 +1272,7 @@ class SmallCardColorTab6 extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTab6}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1205,7 +1293,7 @@ class SmallCardColorTab7 extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTab7}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1226,7 +1314,7 @@ class SmallCardColorTab8 extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTab8}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1247,7 +1335,7 @@ class SmallCardColorTab9 extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTab9}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1268,7 +1356,7 @@ class SmallCardColorTab10 extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTab10}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1289,7 +1377,7 @@ class SmallCardColorTab11 extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTab11}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1310,7 +1398,7 @@ class SmallCardColorTab12 extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTab12}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1331,7 +1419,7 @@ class SmallCardColorTab13 extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTab13}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1352,7 +1440,7 @@ class SmallCardColorTabWhite extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTabWhite}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1373,7 +1461,7 @@ class SmallCardColorTabBlack extends Component{
     return(
       <div  style={{...styles?.smallCard}}>   
       <div style={{...styles?.colorTabBlack}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1413,7 +1501,7 @@ class SmallCardBorderlessTab extends Component{
     return(
       <div  style={{...styles?.smallCardBorderless}}>   
       <div style={{...styles?.borderlessTab}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.smallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1445,6 +1533,27 @@ class BigCard extends Component{
     )
   }
 }
+class BigCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.bigCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
 class BigCardColorTab1 extends Component{
   constructor(props) {
     super(props);
@@ -1459,7 +1568,7 @@ class BigCardColorTab1 extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTab1}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1480,7 +1589,7 @@ class BigCardColorTab2 extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTab2}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1501,7 +1610,7 @@ class BigCardColorTab3 extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTab3}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1522,7 +1631,7 @@ class BigCardColorTab4 extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTab4}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1543,7 +1652,7 @@ class BigCardColorTab5 extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTab5}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1564,7 +1673,7 @@ class BigCardColorTab6 extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTab6}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1585,7 +1694,7 @@ class BigCardColorTab7 extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTab7}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1606,7 +1715,7 @@ class BigCardColorTab8 extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTab8}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1627,7 +1736,7 @@ class BigCardColorTab9 extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTab9}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1648,7 +1757,7 @@ class BigCardColorTab10 extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTab10}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1669,7 +1778,7 @@ class BigCardColorTab11 extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTab11}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1690,7 +1799,7 @@ class BigCardColorTab12 extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTab12}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1711,7 +1820,7 @@ class BigCardColorTab13 extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTab13}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1732,7 +1841,7 @@ class BigCardColorTabWhite extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTabWhite}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1753,7 +1862,7 @@ class BigCardColorTabBlack extends Component{
     return(
       <div  style={{...styles?.bigCard}}>   
       <div style={{...styles?.colorTabBlack}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1793,7 +1902,7 @@ class BigCardBorderlessTab extends Component{
     return(
       <div  style={{...styles?.bigCardBorderless}}>   
       <div style={{...styles?.borderlessTab}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.bigCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1825,6 +1934,27 @@ class BiggerCard extends Component{
     )
   }
 }
+class BiggerCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.biggerCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
 class BiggerCardColorTab1 extends Component{
   constructor(props) {
     super(props);
@@ -1839,7 +1969,7 @@ class BiggerCardColorTab1 extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTab1}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1860,7 +1990,7 @@ class BiggerCardColorTab2 extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTab2}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1881,7 +2011,7 @@ class BiggerCardColorTab3 extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTab3}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1902,7 +2032,7 @@ class BiggerCardColorTab4 extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTab4}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1923,7 +2053,7 @@ class BiggerCardColorTab5 extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTab5}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1944,7 +2074,7 @@ class BiggerCardColorTab6 extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTab6}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1965,7 +2095,7 @@ class BiggerCardColorTab7 extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTab7}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -1986,7 +2116,7 @@ class BiggerCardColorTab8 extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTab8}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2007,7 +2137,7 @@ class BiggerCardColorTab9 extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTab9}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2028,7 +2158,7 @@ class BiggerCardColorTab10 extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTab10}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2049,7 +2179,7 @@ class BiggerCardColorTab11 extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTab11}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2070,7 +2200,7 @@ class BiggerCardColorTab12 extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTab12}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2091,7 +2221,7 @@ class BiggerCardColorTab13 extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTab13}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2112,7 +2242,7 @@ class BiggerCardColorTabWhite extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTabWhite}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2133,7 +2263,7 @@ class BiggerCardColorTabBlack extends Component{
     return(
       <div  style={{...styles?.biggerCard}}>   
       <div style={{...styles?.colorTabBlack}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2173,7 +2303,7 @@ class BiggerCardBorderlessTab extends Component{
     return(
       <div  style={{...styles?.biggerCardBorderless}}>   
       <div style={{...styles?.borderlessTab}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2204,6 +2334,27 @@ class BiggestCard extends Component{
     )
   }
 }
+class BiggestCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.biggestCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
 class BiggestCardColorTab1 extends Component{
   constructor(props) {
     super(props);
@@ -2218,7 +2369,7 @@ class BiggestCardColorTab1 extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTab1}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2239,7 +2390,7 @@ class BiggestCardColorTab2 extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTab2}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2260,7 +2411,7 @@ class BiggestCardColorTab3 extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTab3}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2281,7 +2432,7 @@ class BiggestCardColorTab4 extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTab4}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2302,7 +2453,7 @@ class BiggestCardColorTab5 extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTab5}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2323,7 +2474,7 @@ class BiggestCardColorTab6 extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTab6}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2344,7 +2495,7 @@ class BiggestCardColorTab7 extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTab7}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2365,7 +2516,7 @@ class BiggestCardColorTab8 extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTab8}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2386,7 +2537,7 @@ class BiggestCardColorTab9 extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTab9}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2407,7 +2558,7 @@ class BiggestCardColorTab10 extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTab10}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2428,7 +2579,7 @@ class BiggestCardColorTab11 extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTab11}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2449,7 +2600,7 @@ class BiggestCardColorTab12 extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTab12}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2470,7 +2621,7 @@ class BiggestCardColorTab13 extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTab13}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2491,7 +2642,7 @@ class BiggestCardColorTabWhite extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTabWhite}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2512,7 +2663,7 @@ class BiggestCardColorTabBlack extends Component{
     return(
       <div  style={{...styles?.biggestCard}}>   
       <div style={{...styles?.colorTabBlack}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2552,7 +2703,7 @@ class BiggestCardBorderlessTab extends Component{
     return(
       <div  style={{...styles?.biggestCardBorderless}}>   
       <div style={{...styles?.borderlessTab}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.biggestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2584,6 +2735,27 @@ class TallCard extends Component{
     )
   }
 }
+class TallCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.tallCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
 class TallCardColorTab1 extends Component{
   constructor(props) {
     super(props);
@@ -2598,7 +2770,7 @@ class TallCardColorTab1 extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTab1}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2619,7 +2791,7 @@ class TallCardColorTab2 extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTab2}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2640,7 +2812,7 @@ class TallCardColorTab3 extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTab3}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2661,7 +2833,7 @@ class TallCardColorTab4 extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTab4}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2682,7 +2854,7 @@ class TallCardColorTab5 extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTab5}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2703,7 +2875,7 @@ class TallCardColorTab6 extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTab6}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2724,7 +2896,7 @@ class TallCardColorTab7 extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTab7}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2745,7 +2917,7 @@ class TallCardColorTab8 extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTab8}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2766,7 +2938,7 @@ class TallCardColorTab9 extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTab9}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2787,7 +2959,7 @@ class TallCardColorTab10 extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTab10}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2808,7 +2980,7 @@ class TallCardColorTab11 extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTab11}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2829,7 +3001,7 @@ class TallCardColorTab12 extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTab12}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2850,7 +3022,7 @@ class TallCardColorTab13 extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTab13}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2871,7 +3043,7 @@ class TallCardColorTabWhite extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTabWhite}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2892,7 +3064,7 @@ class TallCardColorTabBlack extends Component{
     return(
       <div  style={{...styles?.tallCard}}>   
       <div style={{...styles?.colorTabBlack}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2932,7 +3104,7 @@ class TallCardBorderlessTab extends Component{
     return(
       <div  style={{...styles?.tallCardBorderless}}>   
       <div style={{...styles?.borderlessTab}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2964,6 +3136,27 @@ class TallerCard extends Component{
     )
   }
 }
+class TallerCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.tallerCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
 class TallerCardColorTab1 extends Component{
   constructor(props) {
     super(props);
@@ -2978,7 +3171,7 @@ class TallerCardColorTab1 extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTab1}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -2999,7 +3192,7 @@ class TallerCardColorTab2 extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTab2}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3020,7 +3213,7 @@ class TallerCardColorTab3 extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTab3}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3041,7 +3234,7 @@ class TallerCardColorTab4 extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTab4}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3062,7 +3255,7 @@ class TallerCardColorTab5 extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTab5}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3083,7 +3276,7 @@ class TallerCardColorTab6 extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTab6}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3104,7 +3297,7 @@ class TallerCardColorTab7 extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTab7}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3125,7 +3318,7 @@ class TallerCardColorTab8 extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTab8}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3146,7 +3339,7 @@ class TallerCardColorTab9 extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTab9}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3167,7 +3360,7 @@ class TallerCardColorTab10 extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTab10}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3188,7 +3381,7 @@ class TallerCardColorTab11 extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTab11}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3209,7 +3402,7 @@ class TallerCardColorTab12 extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTab12}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3230,7 +3423,7 @@ class TallerCardColorTab13 extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTab13}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3251,7 +3444,7 @@ class TallerCardColorTabWhite extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTabWhite}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3272,7 +3465,7 @@ class TallerCardColorTabBlack extends Component{
     return(
       <div  style={{...styles?.tallerCard}}>   
       <div style={{...styles?.colorTabBlack}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3312,7 +3505,7 @@ class TallerCardBorderlessTab extends Component{
     return(
       <div  style={{...styles?.tallerCardBorderless}}>   
       <div style={{...styles?.borderlessTab}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallerCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3344,6 +3537,27 @@ class TallestCard extends Component{
     )
   }
 }
+class TallestCardColorTab extends Component{
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    let app = this.props.app;
+    let dispatch = app.dispatch;
+    let state = app.state;
+    let componentList = state.componentList;
+    let styles =state.styles;
+
+    return(
+      <div  style={{...styles?.tallestCard}}>   
+      <div style={{...styles?.colorTab}}> <TabContent app={app} /></div>   
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
+        <MainContent app={app} />
+        </div>
+        </div>
+    )
+  }
+}
 class TallestCardColorTab1 extends Component{
   constructor(props) {
     super(props);
@@ -3358,7 +3572,7 @@ class TallestCardColorTab1 extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTab1}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3379,7 +3593,7 @@ class TallestCardColorTab2 extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTab2}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3400,7 +3614,7 @@ class TallestCardColorTab3 extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTab3}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3421,7 +3635,7 @@ class TallestCardColorTab4 extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTab4}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3442,7 +3656,7 @@ class TallestCardColorTab5 extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTab5}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3463,7 +3677,7 @@ class TallestCardColorTab6 extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTab6}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3484,7 +3698,7 @@ class TallestCardColorTab7 extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTab7}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3505,7 +3719,7 @@ class TallestCardColorTab8 extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTab8}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3526,7 +3740,7 @@ class TallestCardColorTab9 extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTab9}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3547,7 +3761,7 @@ class TallestCardColorTab10 extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTab10}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3568,7 +3782,7 @@ class TallestCardColorTab11 extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTab11}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3589,7 +3803,7 @@ class TallestCardColorTab12 extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTab12}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3610,7 +3824,7 @@ class TallestCardColorTab13 extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTab13}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3631,7 +3845,7 @@ class TallestCardColorTabWhite extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTabWhite}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3652,7 +3866,7 @@ class TallestCardColorTabBlack extends Component{
     return(
       <div  style={{...styles?.tallestCard}}>   
       <div style={{...styles?.colorTabBlack}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
@@ -3692,7 +3906,7 @@ class TallestCardBorderlessTab extends Component{
     return(
       <div  style={{...styles?.tallestCardBorderless}}>   
       <div style={{...styles?.borderlessTab}}> <TabContent app={app} /></div>   
-      <div style={{...styles?.cardContentWithTab}} className='scroller'>
+      <div style={{...styles?.tallestCardContentWithTab}} className='scroller'>
         <MainContent app={app} />
         </div>
         </div>
